@@ -3,7 +3,7 @@ import { string } from "prop-types";
 import { act } from "react-dom/test-utils";
 import { useCounter } from "../../src/hooks/useCounter";
 
-describe('Pruebas en useCounter', () => { 
+describe('Pruebas en useCounter.', () => { 
     test('Debe retornar valor por defecto.', () => { 
         const { result } = renderHook( () => useCounter() );
         const { counter, increment, decrement, reset } = result.current;
