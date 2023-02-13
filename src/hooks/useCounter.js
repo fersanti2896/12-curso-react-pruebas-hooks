@@ -5,13 +5,13 @@ export const useCounter = ( initialValue = 1 ) => {
 
     /* Función que se expone al useCounter */
     const increment = ( value = 1 ) => {
-        setCounter( counter + value );
+        setCounter( (counter) => counter + value );
     }
 
     const decrement = ( value = 1 ) => {
         if ( counter === 0 ) return;
 
-        setCounter( counter - value );
+        setCounter( (counter) => counter - value );
     }
 
     const reset = () => {
