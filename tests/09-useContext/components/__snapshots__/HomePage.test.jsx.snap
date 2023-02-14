@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HomePage /> Debe de hacer match con el snapshot. 1`] = `
+<div>
+  <h1 />
+  <hr />
+  <pre
+    aria-label="pre"
+  >
+    null
+  </pre>
+</div>
+`;
