@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <TodoApp /> Debe hacer match con en snapshot. 1`] = `
+<div>
+  <h2>
+    Todos: 
+    2
+     | Pendientes: 
+    1
+  </h2>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-7"
+    >
+      <ul
+        class="list-group"
+      >
+        <li
+          class="list-group-item d-flex justify-content-between"
+        >
+          <span
+            aria-label="span"
+            class="align-self-center "
+          >
+            Todo #1
+          </span>
+          <button
+            class="btn btn-outline-danger"
+          >
+            Borrar
+          </button>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between"
+        >
+          <span
+            aria-label="span"
+            class="align-self-center text-decoration-line-through"
+          >
+            Todo #2
+          </span>
+          <button
+            class="btn btn-outline-danger"
+          >
+            Borrar
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="col-5"
+    >
+      <h4>
+        Agregar Todo
+      </h4>
+      <hr />
+      <form>
+        <input
+          class="form-control"
+          name="description"
+          placeholder="¿Qué hay que hacer?"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-outline-success mt-2"
+          type="submit"
+        >
+          Agregar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

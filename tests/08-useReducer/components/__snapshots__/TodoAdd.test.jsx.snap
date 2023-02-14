@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <TodoAdd /> Debe hacer match con en el snapshot 1`] = `
+<div>
+  <form>
+    <input
+      class="form-control"
+      name="description"
+      placeholder="¿Qué hay que hacer?"
+      type="text"
+      value=""
+    />
+    <button
+      class="btn btn-outline-success mt-2"
+      type="submit"
+    >
+      Agregar
+    </button>
+  </form>
+</div>
+`;
